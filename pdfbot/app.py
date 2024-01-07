@@ -11,13 +11,7 @@ from langchain.chains import ConversationalRetrievalChain
 from html_temp import css, bot_template, user_template
 
 
-#Translation
-from googletrans import Translator
-def translate_to_telugu(text):
-    translator = Translator()
-    translated = translator.translate(text, src='en', dest='te')
-    return translated.text
-
+# Main Class
 def main():
     # hugging face apikey
     load_dotenv()
