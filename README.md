@@ -1,3 +1,0 @@
-create a "  .env " file to add the hugging face API key which is available to free...
-in the file code as:
-HUGGINGFACEHUB_API_TOKEN=*********************************   <== here enter your 
